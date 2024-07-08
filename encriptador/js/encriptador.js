@@ -20,7 +20,7 @@
 function encriptar() {
     let texto = document.getElementById("textArea").value.toLowerCase();
     element = document.getElementById("imagen");
-    element.src = src = "img/haker.png";
+    element.src = src = "encriptador/img/haker.png";
 
      texArea = texto.replace(/e/img, "enter");
      texArea = texArea.replace(/o/img, "ober");
@@ -41,7 +41,7 @@ function encriptar() {
 function desencriptar() {
     let texto = document.getElementById("textArea").value.toLowerCase();
     element = document.getElementById("imagen");
-    element.src = src = "img/hacker-2.png";
+    element.src = src = "encriptador/img/hacker-2.png";
 
      texArea = texto.replace(/enter/img, "e");
      texArea = texArea.replace(/ober/img, "o");
